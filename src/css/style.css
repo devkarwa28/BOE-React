@@ -440,6 +440,9 @@ a {
 .section-6 .slick-list {
   padding-bottom: 24px;
 }
+.section-6 .slick-dots {
+  bottom: -48px;
+}
 .section-6 .slick-dots li {
   width: -webkit-fit-content;
   width: -moz-fit-content;

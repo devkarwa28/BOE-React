@@ -377,7 +377,8 @@ a {
     .slick-list {
         padding-bottom: 24px;
     }
-    .slick-dots {
+    .slick-dots { 
+            bottom: -48px;
         li {
             width: fit-content;
             padding: 0px 4px;
