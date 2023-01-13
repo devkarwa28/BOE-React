@@ -3,7 +3,6 @@ import React from 'react'
 const Review_card = (props) =>{
     return(
         <>
-            <div className="col-md-6 col-lg-6">
                     <div className="sec6-box">
                         <figure>
                             <img src={props.profilepic} alt=""/>
@@ -19,7 +18,7 @@ const Review_card = (props) =>{
                             </h4>
                         </div>
                     </div>
-                </div>
+                
         </>
     )
 }
