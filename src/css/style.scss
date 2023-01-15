@@ -4,6 +4,16 @@
     margin: 0px;
     padding: 0px;
 }
+@mixin heading-1 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 24px;
+}
+@mixin paragraph-1 {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+}
 @mixin red-btn {
     padding: 12px 24px;
     color: #ffffff;
@@ -141,7 +151,6 @@ header {
 }
 .header-main {
     background: url(../images/header-bg.jpg) center no-repeat;
-    background-size: cover;
     padding-top: 154px;
     padding-bottom: 134px;
     h1 {
@@ -171,10 +180,7 @@ header {
     .new-arrival {
         padding-top: 110px;
         h1 {
-            font-style: normal;
-            font-weight: 700;
-            font-size: 32px;
-            line-height: 24px;
+            @include heading-1();
             color: $black;
             margin-bottom: 25px;
         }
@@ -195,8 +201,16 @@ header {
         background: #ffffff;
         box-shadow: 0px 4px 10px rgba(217, 217, 217, 0.4);
         border-radius: 8px;
-        img {
-            width: 100%;
+        overflow: hidden;
+        &:hover img {
+            transform: scale(1.08);
+        }
+        figure {
+            overflow: hidden;
+            img {
+                width: 100%;
+                transition: 300ms ease-in-out;
+            }
         }
         .sec1-box-content {
             padding: 16px 25px 24px 16px;
@@ -228,16 +242,21 @@ header {
     padding: 90px 0px 80px 0px;
     h1 {
         font-style: normal;
-        font-weight: 700;
-        font-size: 32px;
-        line-height: 24px;
+        @include heading-1();
         color: $black;
         margin-bottom: 48px;
     }
     .sec2-box {
         text-align: center;
+        &:hover figure img {
+            transform: scale(1.08);
+        }
         figure {
             margin-bottom: 32px;
+            overflow: hidden;
+            img {
+                transition: 300ms ease-in-out;
+            }
         }
         h2 {
             font-weight: 700;
@@ -301,9 +320,7 @@ header {
     padding-top: 68px;
     padding-bottom: 32px;
     h1 {
-        font-weight: 700;
-        font-size: 32px;
-        line-height: 24px;
+        @include heading-1();
         color: $black;
         height: fit-content;
         margin: auto 0px;
@@ -337,12 +354,9 @@ header {
 
 .section-5 {
     padding: 115px 0px 106px 0px;
-    background: url(../images/sec5-bg.jpg);
-    background-size: cover;
+    background: url(../images/sec5-bg.jpg) center no-repeat;
     h1 {
-        font-weight: 700;
-        font-size: 32px;
-        line-height: 24px;
+        @include heading-1();
         text-align: center;
         color: #ffffff;
         margin-bottom: 16px;
@@ -367,9 +381,7 @@ a {
 .section-6 {
     padding: 80px 0px 121px 0px;
     h1 {
-        font-weight: 700;
-        font-size: 32px;
-        line-height: 24px;
+        @include heading-1();
         color: $black;
         text-align: center;
         margin-bottom: 50px;
@@ -377,8 +389,8 @@ a {
     .slick-list {
         padding-bottom: 24px;
     }
-    .slick-dots { 
-            bottom: -48px;
+    .slick-dots {
+        bottom: -48px;
         li {
             width: fit-content;
             padding: 0px 4px;
@@ -388,7 +400,7 @@ a {
                 height: 9px;
                 background: #d9d9d9;
                 border-radius: 10px;
-                &::before{
+                &::before {
                     content: " ";
                 }
             }
@@ -423,9 +435,7 @@ a {
             margin-bottom: 8px;
         }
         p {
-            font-weight: 400;
-            font-size: 15px;
-            line-height: 24px;
+            @include paragraph-1();
             color: $grey;
             margin-bottom: 31px;
         }
@@ -490,9 +500,7 @@ footer {
             margin-bottom: 15px;
         }
         p {
-            font-weight: 400;
-            font-size: 15px;
-            line-height: 24px;
+            @include paragraph-1();
             color: $grey;
             margin-bottom: 24px;
         }
@@ -575,9 +583,7 @@ footer {
 .section-explore-1 {
     padding: 80px 0px 32px 0px;
     h1 {
-        font-weight: 700;
-        font-size: 32px;
-        line-height: 24px;
+        @include heading-1();
         text-align: center;
         color: $black;
         margin-bottom: 48px;
@@ -587,9 +593,7 @@ footer {
     padding: 68px 0px 79px 0px;
     background: #fafafa;
     h1 {
-        font-weight: 700;
-        font-size: 32px;
-        line-height: 24px;
+        @include heading-1();
         text-align: center;
         color: $black;
         margin-bottom: 48px;
@@ -612,9 +616,7 @@ footer {
             margin-bottom: 12px;
         }
         p {
-            font-weight: 400;
-            font-size: 15px;
-            line-height: 24px;
+            @include paragraph-1();
             color: $grey;
             margin-bottom: 0px;
         }
@@ -624,6 +626,7 @@ footer {
     padding: 80px 0px 32px 0px;
 }
 // explore page ended
+
 // about us started
 .section-about-1 {
     padding: 80px 0px 60px 0px;
@@ -641,9 +644,7 @@ footer {
     .content {
         padding-top: 16px;
         p {
-            font-weight: 400;
-            font-size: 15px;
-            line-height: 24px;
+            @include paragraph-1();
             color: $grey;
         }
     }
@@ -669,14 +670,12 @@ footer {
             line-height: 20px;
         }
         p {
-            font-weight: 400;
-            font-size: 15px;
-            line-height: 24px;
+            @include paragraph-1();
             color: $grey;
         }
     }
 }
-// about uss ended
+// about us ended
 @media only screen and (min-width: 200px) and (max-width: 576px) {
     .sm-none {
         display: none;
@@ -823,7 +822,10 @@ footer {
             display: block;
             text-align: center;
             padding: 20px 20px 20px 20px;
-            margin-bottom: 32px;
+            figure {
+                display: flex;
+                justify-content: center;
+            }
             .sec6-box-content {
                 margin-left: 0px;
                 h2 {
@@ -981,6 +983,10 @@ footer {
             text-align: center;
             padding: 20px 20px 20px 20px;
             margin-bottom: 32px;
+            figure {
+                display: flex;
+                justify-content: center;
+            }
             .sec6-box-content {
                 margin-left: 0px;
                 h2 {

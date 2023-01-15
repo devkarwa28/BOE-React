@@ -100,7 +100,6 @@ header nav .user img {
 
 .header-main {
   background: url(../images/header-bg.jpg) center no-repeat;
-  background-size: cover;
   padding-top: 154px;
   padding-bottom: 134px;
 }
@@ -152,7 +151,6 @@ header nav .user img {
   padding-top: 110px;
 }
 .section-1 .new-arrival h1 {
-  font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 24px;
@@ -194,9 +192,17 @@ header nav .user img {
   background: #ffffff;
   box-shadow: 0px 4px 10px rgba(217, 217, 217, 0.4);
   border-radius: 8px;
+  overflow: hidden;
 }
-.section-1 .sec1-box img {
+.section-1 .sec1-box:hover img {
+  transform: scale(1.08);
+}
+.section-1 .sec1-box figure {
+  overflow: hidden;
+}
+.section-1 .sec1-box figure img {
   width: 100%;
+  transition: 300ms ease-in-out;
 }
 .section-1 .sec1-box .sec1-box-content {
   padding: 16px 25px 24px 16px;
@@ -237,8 +243,15 @@ header nav .user img {
 .section-2 .sec2-box {
   text-align: center;
 }
+.section-2 .sec2-box:hover figure img {
+  transform: scale(1.08);
+}
 .section-2 .sec2-box figure {
   margin-bottom: 32px;
+  overflow: hidden;
+}
+.section-2 .sec2-box figure img {
+  transition: 300ms ease-in-out;
 }
 .section-2 .sec2-box h2 {
   font-weight: 700;
@@ -376,8 +389,7 @@ header nav .user img {
 
 .section-5 {
   padding: 115px 0px 106px 0px;
-  background: url(../images/sec5-bg.jpg);
-  background-size: cover;
+  background: url(../images/sec5-bg.jpg) center no-repeat;
 }
 .section-5 h1 {
   font-weight: 700;
@@ -919,7 +931,10 @@ footer .footer-3 {
     display: block;
     text-align: center;
     padding: 20px 20px 20px 20px;
-    margin-bottom: 32px;
+  }
+  .section-6 .sec6-box figure {
+    display: flex;
+    justify-content: center;
   }
   .section-6 .sec6-box .sec6-box-content {
     margin-left: 0px;
@@ -1057,6 +1072,10 @@ footer .footer-3 {
     text-align: center;
     padding: 20px 20px 20px 20px;
     margin-bottom: 32px;
+  }
+  .section-6 .sec6-box figure {
+    display: flex;
+    justify-content: center;
   }
   .section-6 .sec6-box .sec6-box-content {
     margin-left: 0px;
