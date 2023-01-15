@@ -73,29 +73,6 @@ const reviewdata =[
         customer: "Aadil",
         location: "Jodhpur, Rajasthan"
     }
-];
-const arrivalProduct =[
-    {
-        id :0,
-        imglink: "images/sec1-1.png",
-        category:"Tables",
-        productName: "Rounded Wood Table",
-        aboutProduct: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dol Duis aute irure dolor in"
-    },
-    {
-        id :1,
-        imglink: "images/sec1-2.png",
-        category:"Chairs",
-        productName: "Indoor Lounge Chair",
-        aboutProduct: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dol Duis aute irure dolor in"
-    },
-    {
-        id :2,
-        imglink: "images/sec1-3.png",
-        category:"Sofas",
-        productName: "Fleur Modern Sofa",
-        aboutProduct: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dol Duis aute irure dolor in"
-    } 
 ]
 export default pDetails;
-export {reviewdata , arrivalProduct}; 
+export {reviewdata}; 

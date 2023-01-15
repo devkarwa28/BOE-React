@@ -16,14 +16,14 @@ const Header = () => {
                 </figure>
                 
 
-                <ul className="d-lg-flex d-xl-flex ps-0 sm-none md-none">
+                <ul className="d-xl-flex ps-0 sm-none md-none">
                     <li> <Link to='/'>Home</Link> </li>
                     <li> <Link to='/about'>About</Link> </li>
                     <li> <Link to='/'>Products</Link> </li>
                     <li><Link to='/'>Blog</Link></li>
                     <li> <Link to='/'>Contact</Link> </li>
                 </ul>
-                <div className="search-box sm-none md-none d-lg-none d-xl-block ">
+                <div className="search-box sm-none md-none">
                     <input type="text" name="" id="" placeholder="Search Product"/>
                     <button>
                         <i className="fa-solid fa-magnifying-glass"></i>

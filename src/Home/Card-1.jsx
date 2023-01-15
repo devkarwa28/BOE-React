@@ -5,8 +5,8 @@ const Card1 = (props) =>{
         <>
         <div className="col-md-6 col-lg-3">
                     <div className="sec1-box">
-                        <figure className=''>
-                            <img src={props.imglink} alt=""/>
+                        <figure>
+                        <img src={props.imglink} alt=""/>
                         </figure>
                         <div className="sec1-box-content">
                             <h1>{props.category}</h1>
