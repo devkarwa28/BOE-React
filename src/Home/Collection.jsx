@@ -1,5 +1,5 @@
 import React from 'react'
-import Card2 from './Card-2'
+import Card2 from '../global/Card-2'
 import pDetails from './P_Details'
 
 
