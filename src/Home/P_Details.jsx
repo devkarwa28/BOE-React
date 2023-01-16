@@ -7,7 +7,7 @@ const pDetails =[
     },
     {
         id: 1,
-        imglink: "images/sec4-1.png",
+        imglink: "images/sec4-2.png",
         productName: "Arm Chair",
         aboutProduct: " Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dol."
     },
@@ -19,7 +19,7 @@ const pDetails =[
     },
     {
         id: 3,
-        imglink: "images/sec4-1.png",
+        imglink: "images/sec4-4.png",
         productName: "Arm Chair",
         aboutProduct: " Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dol."
     },
@@ -31,7 +31,7 @@ const pDetails =[
     },
     {
         id: 5,
-        imglink: "images/sec4-1.png",
+        imglink: "images/sec4-2.png",
         productName: "Arm Chair",
         aboutProduct: " Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dol."
     },
@@ -43,7 +43,7 @@ const pDetails =[
     },
     {
         id: 7,
-        imglink: "images/sec4-1.png",
+        imglink: "images/sec4-4.png",
         productName: "Arm Chair",
         aboutProduct: " Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dol."
     }
@@ -74,5 +74,26 @@ const reviewdata =[
         location: "Jodhpur, Rajasthan"
     }
 ]
+const bestselling = [
+    {
+        id: 0,
+        imglink: "images/exp-sec2-1.png",
+        productName: "Lisabo Dinning Table",
+        aboutProduct: "Lorem ipsum dolor sit amet constetur. Egestas lorem sit dolor vivamus. Feugiat amet at et sed ipsum turpis morbi venenatis."
+    },
+    {
+        id: 1,
+        imglink: "images/exp-sec2-2.png",
+        productName: "Indoor Lounge Chair",
+        aboutProduct: "Lorem ipsum dolor sit amet constetur. Egestas lorem sit dolor vivamus. Feugiat amet at et sed ipsum turpis morbi venenatis."
+    },
+    {
+        id: 2,
+        imglink: "images/exp-sec2-3.png",
+        productName: "Rounded Wood Table",
+        aboutProduct: "Lorem ipsum dolor sit amet constetur. Egestas lorem sit dolor vivamus. Feugiat amet at et sed ipsum turpis morbi venenatis."
+    }
+
+];
 export default pDetails;
-export {reviewdata}; 
+export {reviewdata , bestselling}; 

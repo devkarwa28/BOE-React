@@ -19,7 +19,7 @@ const Header = () => {
                 <ul className="d-xl-flex ps-0 sm-none md-none">
                     <li> <Link to='/'>Home</Link> </li>
                     <li> <Link to='/about'>About</Link> </li>
-                    <li> <Link to='/'>Products</Link> </li>
+                    <li> <Link to='/products'>Products</Link> </li>
                     <li><Link to='/'>Blog</Link></li>
                     <li> <Link to='/'>Contact</Link> </li>
                 </ul>
