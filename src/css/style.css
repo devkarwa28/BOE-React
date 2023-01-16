@@ -860,6 +860,9 @@ footer .footer-3 {
   .section-1 .sec1-box {
     margin-bottom: 24px;
   }
+  .section-1 .sec1-box img {
+    width: 100%;
+  }
   .card-2 img {
     width: 100%;
   }

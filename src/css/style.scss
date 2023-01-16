@@ -159,12 +159,10 @@ header {
         width: 705px;
         font-size: 48px;
         line-height: 60px;
-
         margin-bottom: 10px;
     }
     p {
         width: 669px;
-
         font-weight: 500;
         font-size: 16px;
         line-height: 30px;
@@ -205,13 +203,13 @@ header {
         &:hover img {
             transform: scale(1.08);
         }
-        figure {
-            overflow: hidden;
-            img {
-                width: 100%;
-                transition: 300ms ease-in-out;
+            figure{
+                overflow: hidden;
+                img {
+                    width: 100%;
+                    transition: 300ms ease-in-out;
+                }
             }
-        }
         .sec1-box-content {
             padding: 16px 25px 24px 16px;
             h1 {
@@ -740,6 +738,9 @@ footer {
         }
         .sec1-box {
             margin-bottom: 24px;
+                img{
+                    width: 100%;
+                }
         }
     }
     .card-2 {
@@ -1066,19 +1067,19 @@ footer {
         }
     }
 }
-@media only screen and (min-width: 992px) and (max-width: 1200px){
-.sec2-box{
-    figure{
-        img{
-            width: 100%;
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .sec2-box {
+        figure {
+            img {
+                width: 100%;
+            }
         }
     }
-}
-.card-2{
-    figure{
-        img{
-            width: 100%;
+    .card-2 {
+        figure {
+            img {
+                width: 100%;
+            }
         }
     }
-}
 }

@@ -23,9 +23,9 @@ const NewArrival = () =>{
                 </div>
                 <div className="col-md-6 col-lg-3">
                     <div className="sec1-box">
-                        <div>
+                        <figure>
                             <img src={img1} alt=""/>
-                        </div>
+                        </figure>
                         <div className="sec1-box-content">
                             <h1>Tables</h1>
                             <h2>Rounded Wood Table</h2>
@@ -36,9 +36,9 @@ const NewArrival = () =>{
                 </div>
                 <div className="col-md-6 col-lg-3">
                     <div className="sec1-box">
-                        <div>
+                        <figure>
                             <img src={img2} alt=""/>
-                        </div>
+                        </figure>
                         <div className="sec1-box-content">
                             <h1>Chairs</h1>
                             <h2>Indoor Lounge Chair</h2>
@@ -49,9 +49,9 @@ const NewArrival = () =>{
                 </div>
                 <div className="col-md-6 col-lg-3">
                     <div className="sec1-box">
-                        <div>
+                        <figure>
                             <img src={img3} alt=""/>
-                        </div>
+                        </figure>
                         <div className="sec1-box-content">
                             <h1>Sofas</h1>
                             <h2>Fleur Modern Sofa</h2>
