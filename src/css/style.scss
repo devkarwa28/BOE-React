@@ -149,10 +149,18 @@ header {
         }
     }
 }
-.header-main {
+.h-bg-1{
     background: url(../images/header-bg.jpg) center no-repeat;
+}
+.h-bg-2{
+    background: url(../images/header-bg2.jpg) center no-repeat;
+}
+.header-main {
     padding-top: 154px;
     padding-bottom: 134px;
+    .slick-next,.slick-prev{
+        right: 0px !important;
+    }
     h1 {
         color: #ffffff;
         font-weight: 700;
