@@ -6,7 +6,7 @@ function Card2(props){
             <div class="col-6 col-md-4 col-lg-3">
                     <div class="card-2">
                         <figure>
-                            <img src={props.imglink} alt=""/>
+                            <img src={props.imglink} alt="" classname='img-fluid' />
                         </figure>
                         <h2>{props.productName}</h2>
                         <p>

@@ -382,6 +382,9 @@ header nav .user img {
 .card-2 figure {
   margin-bottom: 20px;
 }
+.card-2 figure img {
+  height: 270px;
+}
 .card-2 h2 {
   font-weight: 700;
   font-size: 18px;
