@@ -1,7 +1,7 @@
 const pDetails =[
     {
         id: 0,
-        imglink: "images/sec4-1.png",
+        imglink: "images/sec4.png",
         productName: "Arm Chair",
         aboutProduct: " Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dol."
     },
@@ -13,7 +13,7 @@ const pDetails =[
     },
     {
         id: 2,
-        imglink: "images/sec4-1.png",
+        imglink: "images/sec4.png",
         productName: "Arm Chair",
         aboutProduct: " Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dol."
     },
@@ -25,7 +25,7 @@ const pDetails =[
     },
     {
         id: 4,
-        imglink: "images/sec4-1.png",
+        imglink: "images/sec4.png",
         productName: "Arm Chair",
         aboutProduct: " Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dol."
     },
@@ -37,7 +37,7 @@ const pDetails =[
     },
     {
         id: 6,
-        imglink: "images/sec4-1.png",
+        imglink: "images/sec4.png",
         productName: "Arm Chair",
         aboutProduct: " Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dol."
     },

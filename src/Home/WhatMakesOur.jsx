@@ -13,7 +13,7 @@ const WhatMakesOur = () =>{
                         Lorem ipsum dolor sit amet consectetur. Nec mi a eu nec. Lectus turpis mauris elit turpis
                         sollicitudin risus dictum feugiat odio. Morbi.
                     </p>
-                    <div className="d-flex d-lg-block justify-content-sm-center">
+                    <div className="d-flex d-lg-block justify-content-sm-center justify-content-center">
                     <button>
                         About Us
                     </button>

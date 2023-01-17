@@ -1154,6 +1154,9 @@ footer .footer-3 {
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .section-3 {
+    background-size: 55% 100%;
+  }
   .sec2-box figure img {
     width: 100%;
   }
