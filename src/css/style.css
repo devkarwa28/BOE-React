@@ -168,7 +168,6 @@ header nav .user img {
   margin-bottom: 25px;
 }
 .section-1 .new-arrival p {
-  font-family: #5A5958;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -306,7 +305,6 @@ header nav .user img {
   font-size: 32px;
   line-height: 46px;
   color: #484548;
-  word-break: 100px;
   margin-bottom: 15px;
 }
 .section-3 p {
@@ -381,9 +379,6 @@ header nav .user img {
 }
 .card-2 figure {
   margin-bottom: 20px;
-}
-.card-2 figure img {
-  height: 270px;
 }
 .card-2 h2 {
   font-weight: 700;
@@ -661,7 +656,7 @@ footer .footer-3 {
 }
 
 .explore-header {
-  background: url(../images/explore-header-bg.jpg) no-repeat;
+  background: url(../images/explore-header-bg.jpg) center no-repeat;
   padding: 63px 0px 59px 0px;
 }
 .explore-header h1 {

@@ -191,7 +191,6 @@ header {
             margin-bottom: 25px;
         }
         p {
-            font-family: $grey;
             font-style: normal;
             font-weight: 400;
             font-size: 16px;
@@ -308,7 +307,6 @@ header {
         font-size: 32px;
         line-height: 46px;
         color: $black;
-        word-break: 100px;
         margin-bottom: 15px;
     }
     p {
@@ -340,9 +338,6 @@ header {
     margin-bottom: 48px;
     figure {
         margin-bottom: 20px;
-        img{
-            height: 270px;
-        }
     }
     h2 {
         font-weight: 700;
@@ -565,7 +560,7 @@ footer {
 }
 // explore page
 .explore-header {
-    background: url(../images/explore-header-bg.jpg) no-repeat;
+    background: url(../images/explore-header-bg.jpg) center no-repeat;
     padding: 63px 0px 59px 0px;
     h1 {
         font-weight: 700;
