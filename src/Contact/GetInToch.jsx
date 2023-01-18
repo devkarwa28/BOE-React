@@ -10,8 +10,8 @@ const GetInToch = () =>{
         <div className="container">
             <h1>Get in touch</h1>
             <h2>Our friendly team is always here to chat.</h2>
-            <div className="row">
-                <div className="col-lg-4">
+            <div className="row justify-content-md-center">
+                <div className="col-md-6 col-lg-4">
                     <div className="contact-box">
                         <img src={img1} alt=""/>
                         <h3>Email</h3>
@@ -19,7 +19,7 @@ const GetInToch = () =>{
                         <a href="">jodhJodhpuri.net@gmail.com</a>
                     </div>
                 </div>
-                <div className="col-lg-4">
+                <div className="col-md-6 col-lg-4">
                     <div className="contact-box">
                         <img src={img2} alt=""/>
                         <h3>Office</h3>
@@ -27,7 +27,7 @@ const GetInToch = () =>{
                         <a href="">100 Smith StreetCollingwood VIC 3066 AU</a>
                     </div>
                 </div>
-                <div className="col-lg-4">
+                <div className="col-md-6 col-lg-4">
                     <div className="contact-box">
                         <img src={img3} alt=""/>
                         <h3>Phone</h3>

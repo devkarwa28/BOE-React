@@ -702,6 +702,12 @@ footer {
     }
     .contact-box {
         text-align: center;
+        border-radius: 10px;
+        padding: 16px;
+        transition: 300ms ease-in-out;
+        &:hover{
+            background-color: #f8efed;
+        }
         img {
             margin-bottom: 20px;
         }
@@ -1285,6 +1291,37 @@ footer {
             width: 100%;
         }
     }
+    .section-contact-1{
+        .contact-box{
+            margin-bottom: 40px;
+        }
+    }
+    .section-contact-2{
+        img{
+            width: 100%;
+            margin-top: 40px;
+        }
+        .contact-form{
+            padding: 0px;
+            h1{
+                text-align: center;
+            }
+            h2{
+                text-align: center;
+            }
+            form{
+                .input-row{
+                    width: 100%;
+                    .small-input {
+                        width: 98%;
+                    }
+                    input{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
     .section-3{
@@ -1301,6 +1338,23 @@ footer {
         figure {
             img {
                 width: 100%;
+            }
+        }
+    }
+    .section-contact-2{
+        img{
+            width: 100%;
+        }
+        .contact-form{
+            padding-left: 0px;
+            form{
+                .input-row{
+                    width: 100%;
+                    .small-input{
+                        width: 97%;
+                        margin-right: 24px;
+                    }
+                }
             }
         }
     }

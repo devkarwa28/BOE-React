@@ -829,6 +829,12 @@ footer .footer-3 {
 }
 .section-contact-1 .contact-box {
   text-align: center;
+  border-radius: 10px;
+  padding: 16px;
+  transition: 300ms ease-in-out;
+}
+.section-contact-1 .contact-box:hover {
+  background-color: #f8efed;
 }
 .section-contact-1 .contact-box img {
   margin-bottom: 20px;
@@ -1369,6 +1375,31 @@ footer .footer-3 {
     height: 100%;
     width: 100%;
   }
+  .section-contact-1 .contact-box {
+    margin-bottom: 40px;
+  }
+  .section-contact-2 img {
+    width: 100%;
+    margin-top: 40px;
+  }
+  .section-contact-2 .contact-form {
+    padding: 0px;
+  }
+  .section-contact-2 .contact-form h1 {
+    text-align: center;
+  }
+  .section-contact-2 .contact-form h2 {
+    text-align: center;
+  }
+  .section-contact-2 .contact-form form .input-row {
+    width: 100%;
+  }
+  .section-contact-2 .contact-form form .input-row .small-input {
+    width: 98%;
+  }
+  .section-contact-2 .contact-form form .input-row input {
+    width: 100%;
+  }
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .section-3 {
@@ -1379,5 +1410,18 @@ footer .footer-3 {
   }
   .card-2 figure img {
     width: 100%;
+  }
+  .section-contact-2 img {
+    width: 100%;
+  }
+  .section-contact-2 .contact-form {
+    padding-left: 0px;
+  }
+  .section-contact-2 .contact-form form .input-row {
+    width: 100%;
+  }
+  .section-contact-2 .contact-form form .input-row .small-input {
+    width: 97%;
+    margin-right: 24px;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -15,7 +15,7 @@ const Form_contact = () =>{
                         <h1>Contact form </h1>
                         <h2>Our friendly team would love to hear from you.</h2>
                         <form action="">
-                            <div className="d-lg-flex ">
+                            <div className="d-md-flex d-lg-flex ">
                                 <div className="input-row">
                                     <label for="">First Name</label>
                                     <input type="" className="small-input" placeholder="First name" />
