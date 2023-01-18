@@ -21,7 +21,7 @@ const Header = () => {
                     <li> <Link to='/about'>About</Link> </li>
                     <li> <Link to='/products'>Products</Link> </li>
                     <li><Link to='/'>Blog</Link></li>
-                    <li> <Link to='/'>Contact</Link> </li>
+                    <li> <Link to='/contactus'>Contact</Link> </li>
                 </ul>
                 <div className="search-box d-lg-none d-xl-block sm-none md-none">
                     <input type="text" name="" id="" placeholder="Search Product"/>
