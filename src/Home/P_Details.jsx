@@ -95,5 +95,56 @@ const bestselling = [
     }
 
 ];
+const newArrival = [
+    {
+        id : 0,
+        imglink: "images/sec1-1.png",
+        categori: "Tables",
+        productName: "Rounded Wood Table",
+        aboutProduct: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dol Duis aute irure dolor in"
+    },
+    {
+        id : 1,
+        imglink: "images/sec1-2.png",
+        categori: "Chairs",
+        productName: "Indoor Lounge Chair",
+        aboutProduct: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dol Duis aute irure dolor in"
+    },
+    {
+        id : 2,
+        imglink: "images/sec1-3.png",
+        categori: "Sofas",
+        productName: "Fleur Modern Sofa",
+        aboutProduct: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dol Duis aute irure dolor in"
+    },
+    {
+        id : 3,
+        imglink: "images/sec1-1.png",
+        categori: "Tables",
+        productName: "Rounded Wood Table",
+        aboutProduct: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dol Duis aute irure dolor in"
+    },
+    {
+        id : 4,
+        imglink: "images/sec1-2.png",
+        categori: "Chairs",
+        productName: "Indoor Lounge Chair",
+        aboutProduct: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dol Duis aute irure dolor in"
+    },
+    {
+        id : 5,
+        imglink: "images/sec1-3.png",
+        categori: "Sofas",
+        productName: "Fleur Modern Sofa",
+        aboutProduct: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dol Duis aute irure dolor in"
+    },
+    {
+        id : 6,
+        imglink: "images/sec1-1.png",
+        categori: "Tables",
+        productName: "Rounded Wood Table",
+        aboutProduct: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dol Duis aute irure dolor in"
+    }
+]
 export default pDetails;
-export {reviewdata , bestselling}; 
+export {reviewdata , bestselling , newArrival}; 

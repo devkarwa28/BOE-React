@@ -185,6 +185,22 @@ header {
 }
 .section-1 {
     padding-top: 76px;
+    .slick-slide{
+        padding: 10px 15px;
+    }
+    .slick-disabled{
+        display: none !important;
+    }
+    .slick-next,.slick-prev{
+        display: grid;
+justify-content: center;
+i{
+    font-size: 18px;
+}
+        &::before{
+            content: " ";
+        }
+    }
     .new-arrival {
         padding-top: 110px;
         h1 {
@@ -564,6 +580,7 @@ footer {
 // explore page
 .explore-header {
     background: url(../images/explore-header-bg.jpg) center no-repeat;
+    background-size: cover;
     padding: 63px 0px 59px 0px;
     h1 {
         font-weight: 700;

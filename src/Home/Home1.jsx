@@ -7,8 +7,8 @@ const Home1 = () => {
         return (
           <div
             className={className}
-            style={{ ...style, display: "none" }}
-            onClick={onClick}
+            style={{ ...style, display: "block" , right: "20px" }}
+            onClick={onClick} 
           />
         );
       }
@@ -18,7 +18,7 @@ const Home1 = () => {
         return (
           <div
             className={className}
-            style={{ ...style, display: "none" }}
+            style={{ ...style, display: "block" , left : "20px" , zIndex : '9' }}
             onClick={onClick}
           />
         );

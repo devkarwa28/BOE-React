@@ -1,16 +1,77 @@
 import React from 'react'
-import img1 from '../images/sec1-1.png';
-import img2 from '../images/sec1-2.png';
-import img3 from '../images/sec1-3.png';
+import Slider from 'react-slick';
+import { newArrival } from './P_Details';
+import Arrival_card from './Arrival_Card';
 
 
 const NewArrival = () =>{
+    function SampleNextArrow(props) {
+        const { className, style, onClick } = props;
+        return (
+          <div
+            className={className}
+            style={{ ...style, display: "grid" , right: "-40px" , backgroundColor: "#BB5036", width: "40px", height: "40px" , borderRadius: "50%" , color : "white" }}
+            onClick={onClick} 
+          >
+          <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        );
+      }
+      
+      function SamplePrevArrow(props) {
+        const { className, style, onClick } = props;
+        return (
+          <div
+            className={className}
+            style={{ ...style, display: "grid" , left: "-40px" , backgroundColor: "#BB5036", width: "40px", height: "40px" , borderRadius: "50%" , color : "white", zIndex : '9' }}
+            onClick={onClick}
+          >
+           <i class="fa-solid fa-arrow-left"></i>
+          </div>
+        );
+      }
+
+    const settings = {
+        dots: false,
+        infinite: false,
+        speed: 500,
+        slidesToShow: 4,
+        nextArrow: <SampleNextArrow/>,
+      prevArrow: <SamplePrevArrow/>,
+        slidesToScroll: 1
+      };
     return(
         <>
             <section className="section-1 container-fluid">
         <div className="container">
             <div className="row">
-                <div className="col-md-6 col-lg-3">
+            <Slider {...settings}>
+            <div>
+            <div className="new-arrival">
+                        <h1>New arrivals</h1>
+                        <p>
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dol
+                        </p>
+                        <button>
+                            More Products
+                        </button>
+                    </div>
+            </div>
+            {newArrival.map(function nArrive(val){
+                return(
+                    <>
+                        <Arrival_card
+                            key={val.id}
+                            imglink={val.imglink}
+                            categori={val.categori}
+                            productName={val.productName}
+                            aboutProduct={val.aboutProduct}
+                        />
+                    </>
+                )
+            })}
+            </Slider>
+                {/* <div className="col-md-6 col-lg-3">
                     <div className="new-arrival">
                         <h1>New arrivals</h1>
                         <p>
@@ -59,7 +120,7 @@ const NewArrival = () =>{
                                 dolor in</p>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     </section>

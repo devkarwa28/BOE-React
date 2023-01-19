@@ -159,6 +159,22 @@ header nav .user img {
 .section-1 {
   padding-top: 76px;
 }
+.section-1 .slick-slide {
+  padding: 10px 15px;
+}
+.section-1 .slick-disabled {
+  display: none !important;
+}
+.section-1 .slick-next, .section-1 .slick-prev {
+  display: grid;
+  justify-content: center;
+}
+.section-1 .slick-next i, .section-1 .slick-prev i {
+  font-size: 18px;
+}
+.section-1 .slick-next::before, .section-1 .slick-prev::before {
+  content: " ";
+}
 .section-1 .new-arrival {
   padding-top: 110px;
 }
@@ -660,6 +676,7 @@ footer .footer-3 {
 
 .explore-header {
   background: url(../images/explore-header-bg.jpg) center no-repeat;
+  background-size: cover;
   padding: 63px 0px 59px 0px;
 }
 .explore-header h1 {
