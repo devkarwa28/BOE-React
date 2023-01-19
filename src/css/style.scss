@@ -151,9 +151,11 @@ header {
 }
 .h-bg-1{
     background: url(../images/header-bg.jpg) center no-repeat;
+    background-size: cover;
 }
 .h-bg-2{
     background: url(../images/header-bg2.jpg) center no-repeat;
+    background-size: cover;
 }
 .header-main {
     padding-top: 154px;
@@ -302,6 +304,7 @@ header {
     border-width: 1px 0px;
     border-style: solid;
     border-color: #bdbcbb;
+    background-size: 50% 100%;
     h1 {
         font-weight: 700;
         font-size: 32px;
@@ -821,6 +824,10 @@ footer {
                 .seclect-input {
                     border-left: 0px;
                     border-radius: 0px 8px 8px 0px;
+                    &:focus {
+                        border: 2px solid $red;
+                        border-left: 0px;
+                    }
                 }
                 input {
                     width: 100%;

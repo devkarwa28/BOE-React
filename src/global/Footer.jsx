@@ -35,7 +35,7 @@ const Footer = () =>{
                             <li><Link to='/about'><a href="">About</a></Link></li>
                             <li><Link to='/'><a href="">Shop</a></Link></li>
                             <li><Link to='/'><a href=''>Blog</a></Link></li>
-                            <li><Link to='/'><a href="">Contact</a></Link></li>
+                            <li><Link to='/contactus'><a href="">Contact</a></Link></li>
                         </ul>
                     </div>
                 </div>
@@ -47,7 +47,7 @@ const Footer = () =>{
                             <li><a href="">Kitchen</a></li>
                             <li><a href="">Sofas</a></li>
                             <li><a href="">Tables</a></li>
-                            <li><a>Extra's</a></li>
+                            <li><a href=''>Extra's</a></li>
                         </ul>
                     </div>
                 </div>
@@ -70,7 +70,7 @@ const Footer = () =>{
         <div class="container">
             <div class="d-md-flex d-lg-flex justify-content-between">
                 <h1>Copyright © 2021 Best of Export</h1>
-                <h1>Designed and Development by <a href="">MicroClick Pvt Ltd.</a></h1>
+                <h1>Designed and Development by <a href="https://microclick.in/"target='_blank' >MicroClick Pvt Ltd.</a></h1>
             </div>
         </div>
     </div>

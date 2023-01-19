@@ -100,10 +100,12 @@ header nav .user img {
 
 .h-bg-1 {
   background: url(../images/header-bg.jpg) center no-repeat;
+  background-size: cover;
 }
 
 .h-bg-2 {
   background: url(../images/header-bg2.jpg) center no-repeat;
+  background-size: cover;
 }
 
 .header-main {
@@ -299,6 +301,7 @@ header nav .user img {
   border-width: 1px 0px;
   border-style: solid;
   border-color: #bdbcbb;
+  background-size: 50% 100%;
 }
 .section-3 h1 {
   font-weight: 700;
@@ -948,6 +951,10 @@ footer .footer-3 {
 .section-contact-2 .contact-form form .input-row .seclect-input {
   border-left: 0px;
   border-radius: 0px 8px 8px 0px;
+}
+.section-contact-2 .contact-form form .input-row .seclect-input:focus {
+  border: 2px solid #BB5036;
+  border-left: 0px;
 }
 .section-contact-2 .contact-form form .input-row input {
   width: 100%;
