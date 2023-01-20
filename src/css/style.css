@@ -526,6 +526,11 @@ a {
 .section-6 .sec6-box .sec6-box-content {
   margin-left: 21px;
 }
+.section-6 .sec6-box figure img {
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+}
 .section-6 .sec6-box h2 {
   font-weight: 700;
   font-size: 20px;

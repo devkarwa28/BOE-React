@@ -51,27 +51,27 @@ const pDetails =[
 const reviewdata =[
     {
         id: 0,
-        profilepic: "images/profile-pic.png",
+        profilepic: "images/devkarwaprofile.jpeg",
         title: "The best furniture store I know",
         desc: "Lorem ipsum dolor sit amet consectetur. Nisl aenean et cursus cursus diam arcu volutpat id. Cursus velit quisque id morbi tristique mauris congue pellentesque vestibulum. ",
         customer: "Dev Karwa",
-        location: "Los Angeles, CA"
+        location: "Jodhpur,Rajasthan"
     },
     {
         id: 1,
-        profilepic: "images/profile-pic.png",
+        profilepic: "images/aadil.jpg",
         title: "The best furniture store I know",
         desc: "Lorem ipsum dolor sit amet consectetur. Nisl aenean et cursus cursus diam arcu volutpat id. Cursus velit quisque id morbi tristique mauris congue pellentesque vestibulum. ",
-        customer: "Aadil",
-        location: "Jodhpur, Rajasthan"
+        customer: "Aadil Rajawat",
+        location: "Jodhpur,Rajasthan"
     },
     {
         id: 2,
-        profilepic: "images/profile-pic.png",
+        profilepic: "images/montugoyal.jpg",
         title: "The best furniture store I know",
         desc: "Lorem ipsum dolor sit amet consectetur. Nisl aenean et cursus cursus diam arcu volutpat id. Cursus velit quisque id morbi tristique mauris congue pellentesque vestibulum. ",
-        customer: "Aadil",
-        location: "Jodhpur, Rajasthan"
+        customer: "Montu Goyal",
+        location: "Jodhpur,Rajasthan"
     }
 ]
 const bestselling = [
