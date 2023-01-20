@@ -32,11 +32,25 @@ const Home1 = () => {
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 5000,
+        autoplaySpeed: 4000,
+        cssEase: "linear",
+        responsive: [
+            {
+              breakpoint: 650,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                nextArrow: false,
+      prevArrow: false,
+      autoplay: true,
+        autoplaySpeed: 3000,
         cssEase: "linear"
+              }
+            }
+          ]
     };
     return (
-        <div>
+        <div className='header-bg'>
             <Slider {...settings}>
             <div className='container-fluid px-0'>
                 <div className="header-main h-bg-1">

@@ -175,6 +175,11 @@ header nav .user img {
 .section-1 .slick-next::before, .section-1 .slick-prev::before {
   content: " ";
 }
+.section-1 .slick-next:hover, .section-1 .slick-prev:hover {
+  border: 2px solid #BB5036;
+  background-color: white !important;
+  color: #BB5036 !important;
+}
 .section-1 .new-arrival {
   padding-top: 110px;
 }
@@ -1059,6 +1064,9 @@ footer .footer-3 {
   header nav ul li {
     margin: 18px 0px;
   }
+  .header-bg .slick-next {
+    display: none !important;
+  }
   .header-main {
     padding-top: 65px;
     padding-bottom: 60px;
@@ -1072,6 +1080,9 @@ footer .footer-3 {
     width: 100%;
     font-size: 14px;
     line-height: 26px;
+  }
+  .section-1 .slick-next {
+    right: 0px;
   }
   .section-1 .new-arrival {
     padding-top: 0px;

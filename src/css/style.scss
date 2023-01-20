@@ -201,6 +201,11 @@ i{
         &::before{
             content: " ";
         }
+        &:hover{
+            border: 2px solid $red;
+            background-color: white !important;
+            color: $red !important;
+        }
     }
     .new-arrival {
         padding-top: 110px;
@@ -921,9 +926,15 @@ footer {
             }
         }
     }
+    .header-bg{
+        .slick-next{
+            display: none !important;
+        }
+    }
     .header-main {
         padding-top: 65px;
         padding-bottom: 60px;
+        
         h1 {
             width: 100%;
             font-size: 42px;
@@ -936,6 +947,9 @@ footer {
         }
     }
     .section-1 {
+        .slick-next{
+            right: 0px;
+        }
         .new-arrival {
             padding-top: 0px;
             text-align: center;

@@ -38,7 +38,43 @@ const NewArrival = () =>{
         slidesToShow: 4,
         nextArrow: <SampleNextArrow/>,
       prevArrow: <SamplePrevArrow/>,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: true
+              }
+            },
+            {
+              breakpoint: 992,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                initialSlide: 2,
+                nextArrow: false,
+      prevArrow: false,
+      autoplay: true,
+        autoplaySpeed: 5000,
+        cssEase: "linear"
+              }
+            },
+            {
+              breakpoint: 650,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                nextArrow: false,
+      prevArrow: false,
+      autoplay: true,
+        autoplaySpeed: 5000,
+        cssEase: "linear"
+              }
+            }
+          ]
       };
     return(
         <>
@@ -46,7 +82,7 @@ const NewArrival = () =>{
         <div className="container">
             <div className="row">
             <Slider {...settings}>
-            <div>
+            <div className='sm-none'>
             <div className="new-arrival">
                         <h1>New arrivals</h1>
                         <p>
