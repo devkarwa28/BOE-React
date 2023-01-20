@@ -203,6 +203,7 @@ header nav .user img {
   font-size: 16px;
   line-height: 24px;
   transition: 200ms ease-in-out;
+  border: 1px solid #BB5036;
 }
 .section-1 .new-arrival button:hover {
   background-color: transparent;
@@ -343,6 +344,7 @@ header nav .user img {
   font-size: 16px;
   line-height: 24px;
   transition: 200ms ease-in-out;
+  border: 1px solid #BB5036;
 }
 .section-3 button:hover {
   background-color: transparent;
@@ -380,6 +382,7 @@ header nav .user img {
   font-size: 16px;
   line-height: 24px;
   transition: 200ms ease-in-out;
+  border: 1px solid #BB5036;
 }
 .section-4 button:hover {
   background-color: transparent;
@@ -595,6 +598,7 @@ a {
   font-size: 16px;
   line-height: 24px;
   transition: 200ms ease-in-out;
+  border: 1px solid #BB5036;
   top: 21px;
   right: 8px;
 }
