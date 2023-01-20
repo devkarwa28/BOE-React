@@ -1086,7 +1086,7 @@ footer {
             input {
                 width: 100%;
                 height: 55px;
-                padding: 0px 120px 0px 30px;
+                padding: 0 127px 0 14px;
             }
             button {
                 top: 8px;
@@ -1138,6 +1138,11 @@ footer {
                 line-height: 22px;
                 text-align: justify;
             }
+        }
+    }
+    .section-explore-2{
+        .card-3{
+            margin-bottom: 30px;
         }
     }
     .section-about-2 {

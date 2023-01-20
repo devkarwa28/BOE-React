@@ -54,7 +54,7 @@ const reviewdata =[
         profilepic: "images/profile-pic.png",
         title: "The best furniture store I know",
         desc: "Lorem ipsum dolor sit amet consectetur. Nisl aenean et cursus cursus diam arcu volutpat id. Cursus velit quisque id morbi tristique mauris congue pellentesque vestibulum. ",
-        customer: "John Carter",
+        customer: "Dev Karwa",
         location: "Los Angeles, CA"
     },
     {
