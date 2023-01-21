@@ -15,37 +15,37 @@ const Form_contact = () =>{
                         <h1>Contact form </h1>
                         <h2>Our friendly team would love to hear from you.</h2>
                         <form action="">
-                            <div className="d-md-flex d-lg-flex ">
+                            <div className="d-md-flex d-lg-flex justify-content-between">
                                 <div className="input-row">
                                     <label for="">First Name</label>
-                                    <input type="" className="small-input" placeholder="First name" />
+                                    <input type="text" name='firstname' className="small-input" placeholder="First name" />
                                 </div>
                                 <div className="input-row">
                                     <label for="">Last name</label>
-                                    <input type="" className="small-input" placeholder="Last name" />
+                                    <input type="text" name='lastname' className="small-input" placeholder="Last name" />
                                 </div>
                             </div>
                             <div className="input-row">
                                 <label for="">Email</label>
-                                <input type="email" placeholder="you@company.com" />
+                                <input type="email" name='email' placeholder="you@company.com" />
                             </div>
                             <div className="input-row">
                                 <label for="">Phone number</label>
                                 <div className="d-flex">
-                                    <select name="" id="">
+                                    <select name="contrycode" id="">
                                         <option value="">IND</option>
                                         <option value="">US</option>
                                         <option value="">PAK</option>
                                     </select>
-                                    <input type="tel" className="seclect-input" placeholder="Phone number" />
+                                    <input type="tel" name='phonenumber' className="seclect-input" placeholder="Phone number" />
                                 </div>
                             </div>
                             <div className="input-row">
                                 <label for="">Message</label>
-                                <textarea name="" id="" cols="" rows=""></textarea>
+                                <textarea name="message" id="" cols="" rows=""></textarea>
                             </div>
                             <div className="policy d-flex">
-                                <input type="checkbox"/>
+                                <input type="checkbox" name='terms'/>
                                 <p>You agree to our friendly <a href="">privacy policy</a>.</p>
                             </div>
                             <button>
